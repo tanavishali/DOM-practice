@@ -6,6 +6,35 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="script.js"></script>
+    <h1>JavaScript HTML DOM</h1>
+    <p>
+      With the HTML DOM, JavaScript can access and change all the elements of an
+      HTML document.
+    </p>
+    <h1>What is the DOM?</h1>
+    <p>
+      The DOM is a W3C (World Wide Web Consortium) standard. The DOM defines a
+      standard for accessing documents: "The W3C Document Object Model (DOM) is
+      a platform and language-neutral interface that allows programs and scripts
+      to dynamically access and update the content, structure, and style of a
+      document." The W3C DOM standard is separated
+      <span
+        >into 3 different parts: Core DOM - standard model for all document
+        types XML DOM - standard model for XML documents HTML DOM - standard
+        model for HTML documents
+      </span>
+    </p>
+    <h1>Example</h1>
+    <p>
+      <p id="demo"></p>
+      <p>document.getElementById("demo").innerHTML = "Hello World!";</p>
+      <p>In the example above, getElementById is a method, while innerHTML is a property.</p>
+      <!--  -->
+      <!-- <script> -->
+      <!-- document.getElementById("demo").innerHTML = "Hello World!"; -->
+      <!-- </script> -->
+
+      <script src="script.js"></script>
+    </p>
   </body>
 </html>
