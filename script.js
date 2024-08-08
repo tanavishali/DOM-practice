@@ -26,3 +26,25 @@
 //   console.log(getvalue);
 //   document.getElementById("demovalue").textContent = getvalue;
 // }
+// start project practice
+
+// color changer
+let allbutton = document.querySelectorAll(".button");
+let body = document.querySelector("body");
+
+allbutton.forEach(function (button) {
+  console.log(button);
+  button.addEventListener("click", function (e) {
+    console.log(e);
+    console.log(e.target);
+    if (e.target.id === "box1") {
+      body.style.backgroundColor = "red";
+    } else if (e.target.id === "box2") {
+      body.style.backgroundColor = "black";
+    } else if (e.target.id === "box3") {
+      body.style.backgroundColor = "yellow";
+    } else if (e.target.id === "box4") {
+      body.style.backgroundColor = "green";
+    }
+  });
+});
