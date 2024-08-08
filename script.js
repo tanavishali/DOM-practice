@@ -29,6 +29,7 @@
 // start project practice
 
 // color changer
+/*
 let allbutton = document.querySelectorAll(".button");
 let body = document.querySelector("body");
 
@@ -48,3 +49,20 @@ allbutton.forEach(function (button) {
     }
   });
 });
+
+*/
+// second project  BMI calculater
+/*
+let button = document.querySelector(".btn");
+console.log(button);
+
+button.addEventListener("click", function () {
+  let height = document.querySelector(".height").value;
+  let weight = document.querySelector(".weight").value;
+  height = height / 100;
+  let bmi = weight / (height * height);
+  document.querySelector(".bmi");
+  document.querySelector(".bmi").textContent = bmi.toFixed(2);
+  console.log(bmi.toFixed(2));
+});
+*/
