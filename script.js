@@ -66,3 +66,14 @@ button.addEventListener("click", function () {
   console.log(bmi.toFixed(2));
 });
 */
+// 3 show time project
+
+let showtime = document.querySelector(".show");
+setInterval(function () {
+  let date = new Date();
+
+  showtime.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
+// let random = Math.floor(Math.random() * 100 + 1);
+// console.log(random);

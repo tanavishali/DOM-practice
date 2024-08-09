@@ -28,3 +28,10 @@
 #box4 {
   background-color: rgb(35, 38, 40);
 }
+
+.show {
+  /* background-color: black; */
+  height: 100px;
+  width: 150px;
+  /* color: white; */
+}
