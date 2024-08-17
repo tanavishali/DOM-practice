@@ -68,12 +68,47 @@ button.addEventListener("click", function () {
 */
 // 3 show time project
 
-let showtime = document.querySelector(".show");
-setInterval(function () {
-  let date = new Date();
+// let showtime = document.querySelector(".show");
+// setInterval(function () {
+//   let date = new Date();
 
-  showtime.innerHTML = date.toLocaleTimeString();
-}, 1000);
-
+//   showtime.innerHTML = date.toLocaleTimeString();
+// }, 1000);
+// setInterval(() => {
+//   let date = new Date();
+//   console.log(date.toLocaleTimeString());
+// }, 1000);
 // let random = Math.floor(Math.random() * 100 + 1);
 // console.log(random);
+/*
+function outerFunction() {
+  let outerVariable = "I am from outer function";
+
+  function innerFunction() {
+    console.log(outerVariable); // Can access outerVariable even though it's not defined within innerFunction
+  }
+
+  return innerFunction;
+}
+
+const closureExample = outerFunction(); // outerFunction returns innerFunction
+closureExample(); // 'I am from outer function' is logged to the console
+*/
+// foor of loop
+/*
+let array = ["ali", "asad", "ayaz", "nabeel"];
+for (const element of array) {
+  // console.log(`${element}: ${array[element]}`);
+  // console.log(`${element}:${element[array]}`);
+  // console.log(`${key}: ${obj[]}`);
+}
+let name = "tanawish";
+for (const element of name) {
+  console.log(element);
+}
+*/
+let keybord = document.querySelector(".keybor");
+window.addEventListener("keydown", function (e) {
+  console.log(e.key);
+  console.log(e.code);
+});
